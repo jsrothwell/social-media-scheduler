@@ -1,0 +1,23 @@
+/* Styles for the Metabox in the post editor */
+#sm_scheduler_metabox .inside {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+#sm_scheduler_metabox .components-base-control__label {
+    font-weight: 600;
+    margin-bottom: 4px;
+    display: block;
+}
+
+#sm_scheduler_metabox textarea {
+    border-radius: 4px;
+    border-color: #8c8f94;
+}
+
+#sm_scheduler_metabox hr {
+    border: none;
+    border-top: 1px solid #ddd;
+    margin: 8px 0;
+}
